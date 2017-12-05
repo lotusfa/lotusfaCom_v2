@@ -6,7 +6,7 @@ Go to this <a href="https://me.lotusfa.com/lotusfa-v2/"> website</a>
 
 ## Built With
 
-- P5 js , game engine
-
+- P5 js , game engine 
+- Javascript + Json , CMS system 
 -  <a href="https://masonry.desandro.com/"> Masonry </a> , box arrangement system 
 
