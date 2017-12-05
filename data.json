@@ -1,0 +1,80 @@
+{ 
+	"Header":"LotusFa.Com",
+	"Profolio" : [
+		{
+			"name"	:	"PHP Chat Room (2017)",
+			"url"	:	"https://phpchatroomdemo.herokuapp.com/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492407/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.46.27_jky8kx.png"
+		},
+		{
+			"name"	:	"Crib Drag Solver (2017)",
+			"url"	:	"https://toolbox.lotusfa.com/crib_drag/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490600/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.16.04_tjuhoe.png"
+		},
+		{
+			"name"	:	"Words frequency Counter (2017)",
+			"url"	:	"https://toolbox.lotusfa.com/chin_words_freq/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490694/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.17.35_s2dz5j.png"
+		},
+		{
+			"name"	:	"IPA Translator (2017)",
+			"url"	:	"https://toolbox.lotusfa.com/ipa/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490749/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.18.52_mocgfu.png"
+		},
+		{
+			"name"	:	"Game - Give&Take (2017)",
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/give_and_take_v1_0_5/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491553/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.31.31_dnj9t6.png"
+		},
+		{
+			"name"	:	"Game - EqualTen v2 (2017)",
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/equal10_v2_2_3/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491682/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.34.22_q6v2ax.png"
+		},
+		{
+			"name"	:	"Game - EqualTen v1 (2017)",
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/equal10_v1_0_5/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491790/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.36.06_b0x7ck.png"
+		},
+		{
+			"name"	:	"Game - Bullet With Ball (2017)",
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/bottle_with_ball_plus/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492705/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.51.22_ocea9w.png"
+		},
+		{
+			"name"	:	"Game - Box (2017)",
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/Box/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492852/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.53.23_a5vyvo.png"
+		},
+		{
+			"name"	:	"Lotusfa.Com Version 2 (2017)",
+			"url"	:	"https://me.lotusfa.com/lotusfa-v2/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492530/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.48.32_uzvtmo.png"
+		},
+		{
+			"name"	:	"Lotusfa Blog (2017)",
+			"url"	:	"https://blog.lotusfa.com/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512489670/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.00.18_f0ki0q.png"
+		},
+		{
+			"name"	:	"Uni-Y Event Management System (2016)",
+			"url"	:	"https://uni-y.lotusfa.com/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512489988/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.06.05_zv9yav.png"
+		},
+		{
+			"name"	:	"Vista Snap (2016)",
+			"url"	:	"https://vista.lotusfa.com/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1469550788/VistaLogo.jpg"
+		},
+		{
+			"name"	:	"Lotusfa.Com Version 1 (2016)",
+			"url"	:	"https://me.lotusfa.com/lotusfa-v1/",
+			"image"	:	"http://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490281/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.10.53_khqorx.png"
+		},
+		{
+			"name"	:	"FaFa Ebook (2013)",
+			"url"	:	"https://fafaebook.lotusfa.com/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1469137577/fafaEbookkkk.png"
+		}
+	]
+}

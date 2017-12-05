@@ -1,0 +1,258 @@
+.well,
+.container,
+.hero-grid,
+body {
+  padding: 0;
+}
+/* site nav
+------------------------- */
+.site-nav .container {
+  border-bottom: 3px solid white;
+  width: 95%;
+}
+
+/* bottom nav */
+.content ~ .site-nav .container {
+  position: relative;
+  margin-top: 80px;
+  border-top: 2px solid white;
+  border-bottom: none;
+}
+
+.site-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav__list:after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.site-nav__item {
+  width: 33.333%;
+  float: left;
+  line-height: 70px;
+}
+
+.site-nav__item a {
+  display: block;
+  padding: 5px
+}
+
+.site-nav__item--homepage {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.site-nav__item--homepage a {
+  color: #FC6A03;
+}
+
+.site-nav__item a:hover {
+  background: #FC6A03;
+  color: white;
+}
+
+.site-nav__item a:active {
+  background: white;
+  color: #FC6A03;
+}
+
+/* selected */
+.page--options .site-nav__item--options a,
+.page--methods .site-nav__item--methods a,
+.page--events .site-nav__item--events a,
+.page--extras .site-nav__item--extras a,
+.page--faq .site-nav__item--faq a {
+  color: white;
+}
+
+.page--index .site-nav__item--homepage {
+  visibility: hidden;
+}
+
+/* size at which it can fit */
+@media screen and ( min-width: 768px ) {
+
+  .site-nav__item {
+    width: auto;
+    font-size: 1.5rem;
+    line-height: 70px;
+  }
+
+  .site-nav__item a {
+    padding: 0px 30px;
+  }
+
+  .site-nav__item--homepage {
+    font-size: 2rem;
+  }
+
+  .grid {
+    width: 90%;
+  }
+
+  .WhoAmI{
+    margin-right: 25px;
+  }
+}
+
+@charset "UTF-8";
+
+/* ---- grid ---- */
+.grid {
+  margin-top: 30px !important; 
+  width: 95%;
+  padding: 10px 1%;
+  background: white;
+  border-radius: 10px;
+
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-container,
+.grid,
+.profolios,
+.site-nav .container,
+footer .row{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+
+}
+/* ---- grid-item ---- */
+
+.grid-item {
+  float: center;
+  border-radius: 5px;
+}
+
+.grid-item--width2 { width: 32%; }
+
+/* necessary for proper sizing with margins */
+.hero-grid__grid-sizer {
+  position: absolute;
+}
+
+.hero-grid__gutter-sizer {
+  width: 2%;
+}
+
+/* Description
+------------------------- */
+.WhoAmI{
+  margin-bottom: 5px;
+}
+
+.WhoAmI h1 {
+  margin: 0;
+  line-height: 1.2;
+  font-size: 3rem;
+  color: #FC6A03;
+  width: 70%;
+}
+
+h3 {
+  margin: 0;
+  color: #FC6A03;
+  text-align: center;
+}
+
+.WhoAmI p {
+  font-size: 1.4rem;
+  margin: 0 0 10px;
+}
+
+.connectButton{
+  padding: 0px;
+}
+
+.connectButton .orange{
+  background-color:  #FC6A03;
+  margin: 2px;
+  float: center;
+  border-radius: 5px;
+}
+
+.connectButton img{
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: #FC6A03;
+  float: center;
+}
+
+.connectButton .orange:hover{
+  background-color:  #FF9A11;
+  margin: 2px;
+  float: center;
+  border-radius: 5px;
+}
+
+.connectButton img:hover{
+  margin: 5px;
+  background-color:  #FF9A11;
+  float: center;
+}
+
+.connectButton h4{
+  color:  white;
+  text-align: center;
+  float: center;
+}
+
+.p{
+  text-align: center;
+}
+
+.pad{
+  width: 100%;
+  padding: 5px;
+}
+
+.card {
+  text-align: left;
+  float: center;
+  background-color: white;
+  width:100% ;
+  overflow: hidden;  
+}
+
+.card:hover {
+  box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  float: center;
+}
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.containercard {
+  padding: 2px ;
+  padding-top: 1px;
+  height: 40px;
+  width: 80%;
+  overflow: hidden;
+  position: absolute;
+  background: rgba(255,70,0,0.7); 
+  color: white; 
+  bottom: 5px;
+}
+
+.containercard em{
+  text-decoration:underline;
+}
