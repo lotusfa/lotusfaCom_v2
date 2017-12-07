@@ -45,7 +45,7 @@
                       <img src="https://goo.gl/D6XThk" class="img-circle" width="80%"/> 
                     </p>
                 </div>
-                <div class="col-xs-12 col-sm-8">
+                <div class="col-xs-12 col-sm-8 col-lg-8">
                    <h4>Blog</h4>
                 </div>
             </div>
@@ -60,7 +60,7 @@
                   <img src="https://goo.gl/GVcHtt" class="img-circle" width="80%"/>
                 </p>
               </div>
-              <div class="col-xs-12 col-sm-8">
+              <div class="col-xs-12 col-sm-8 col-lg-8">
                  <h4>Github</h4>
               </div>
             </div>
@@ -75,7 +75,7 @@
                       <img src="https://goo.gl/NzkDKe" class="img-circle" width="80%"/> 
                     </p>
                 </div>
-                <div class="col-xs-12 col-sm-8">
+                <div class="col-xs-12 col-sm-8 col-lg-8">
                     <h4>Google+</h4>
                 </div>
             </div>
@@ -91,23 +91,38 @@
 
        <div class="profolios" id="profolios"></div> <!-- End Of profolio -->
     </div><!-- End Of grid -->
-
-    <div class="grid-item col-xs-12" hight="200px" style="text-align: center;" >
-      <hr>
-      <h3> Hope you have a nice day! ☀</h3>
-      <hr>
+<!-- 
+    <div id="gameArea" disable="true">
+      <div class="grid-item col-xs-12" hight="200px" style="text-align: center;" >
+        <hr>
+        <h3> Hope you have a nice day! ☀</h3>
+        <hr>
+      </div>
+      <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+      <script language="javascript" type="text/javascript" src="sketch.js"></script>
+      
+      <div style="width: 50%;" id="myContainer" ></div>
+      <div style="text-align: right; padding-right: 20px;color: gray;"> 
+        <p>Click "Space Bar" To Play. Control With "W, A, S, D". </p>
+      </div>
     </div>
-    <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-    <script language="javascript" type="text/javascript" src="sketch.js"></script>
-    <div style="width: 50%;" id="myContainer" ></div>
+     -->
+     <script>
 
-    <div style="text-align: right; padding-right: 20px;color: gray;"> 
-      <p>Click "Space Bar" To Play. Control With "W, A, S, D". </p>
-    </div>
+      testExp = new RegExp('Android|webOS|iPhone|iPad|' +
+                     'BlackBerry|Windows Phone|'  +
+                     'Opera Mini|IEMobile|Mobile' , 
+                    'i');
+
+     if (!testExp.test(navigator.userAgent)) {
+       document.write("<div class='grid-item col-xs-12' hight='200px' style='text-align: center;' ><hr><h3> Hope you have a nice day! ☀</h3><hr></div><script language='javascript' type='text/javascript' src='libraries/p5.js'><\/script><script language='javascript' type='text/javascript' src='sketch.js'><\/script><div style='width: 50%;' id='myContainer' ></div><div style='text-align: right; padding-right: 20px;color: gray;'><p>Click 'Space Bar' To Play. Control With 'W, A, S, D'. </p></div>");
+     }
+     </script>
     
     <footer><!-- Footer -->
         <div class="row"><!-- .row -->
-            <div class="col-lg-12" style="text-align: center;margin: 20px !important;">
+            <div class="col-sm-12" style="text-align: center;margin: 20px !important;">
+                <p>Email: lotusfa5@gmail.com</p>
                 <p>Copyright &copy; Lotusfa.com 2017</p>
             </div>
         </div><!-- /.row -->
@@ -117,11 +132,12 @@
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js'></script>
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/imagesLoaded.js'></script>
     <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/123941/masonry.js'></script>
+    
     <script type="text/javascript">
 
       let dataURL = "./data.json";
       main ();
-
+      
       function main () {
         loadProfolio ( (data)=>{
           setProfolios (data.Profolio);
@@ -142,7 +158,6 @@
         document.getElementById("profolios").innerHTML = "";
 
         for (var i = 0; i < p.length; i++) {
-          console.log(p[i].name,p[i].url,p[i].image);
 
           var proNode = document.createElement("div");
           proNode.className = "profolio col-xs-6 col-sm-4 nopadding container";
