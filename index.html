@@ -91,24 +91,7 @@
 
        <div class="profolios" id="profolios"></div> <!-- End Of profolio -->
     </div><!-- End Of grid -->
-<!-- 
-    <div id="gameArea" disable="true">
-      <div class="grid-item col-xs-12" hight="200px" style="text-align: center;" >
-        <hr>
-        <h3> Hope you have a nice day! ☀</h3>
-        <hr>
-      </div>
-      <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
-      <script language="javascript" type="text/javascript" src="sketch.js"></script>
-      
-      <div style="width: 50%;" id="myContainer" ></div>
-      <div style="text-align: right; padding-right: 20px;color: gray;"> 
-        <p>Click "Space Bar" To Play. Control With "W, A, S, D". </p>
-      </div>
-    </div>
-     -->
      <script>
-
       testExp = new RegExp('Android|webOS|iPhone|iPad|' +
                      'BlackBerry|Windows Phone|'  +
                      'Opera Mini|IEMobile|Mobile' , 
@@ -139,16 +122,17 @@
       main ();
       
       function main () {
+        
+        updateContainer ();
+
         loadProfolio ( (data)=>{
+          
           setProfolios (data.Profolio);
-          updateGridBox ();
-          setTimeout(function(){ updateGridBox (); }, 50);
-          setTimeout(function(){ updateGridBox (); }, 500);
-          setTimeout(function(){ updateGridBox (); }, 1000);
-          setTimeout(function(){ updateGridBox (); }, 3000);
-          setTimeout(function(){ updateGridBox (); }, 5000);
-          setTimeout(function(){ updateGridBox (); }, 10000);
-          setTimeout(function(){ updateGridBox (); }, 20000);
+          
+          updateProfolio ();
+          setTimeout(()=>{ updateProfolio (); }, 50);
+          setTimeout(()=>{ updateProfolio (); }, 500);
+          setInterval(()=>{ updateProfolio (); }, 1500);
         });
       }
 
@@ -161,6 +145,7 @@
 
           var proNode = document.createElement("div");
           proNode.className = "profolio col-xs-6 col-sm-4 nopadding container";
+          proNode.style.display = "none";
 
           var cardNode = document.createElement("div");
           cardNode.className = "pad card";
@@ -168,7 +153,11 @@
           var aNode = document.createElement("a");
           aNode.href = p[i].url;
 
-          var imgNode = document.createElement("img");
+          var imgNode = new Image();
+          imgNode.addEventListener('load', function() {
+            this.parentNode.parentNode.parentNode.style.display = "block";
+          });
+
           imgNode.src = p[i].image;
 
           var textNode = document.createElement("div");
@@ -184,6 +173,10 @@
         }
       }
 
+      function imgLoaded(pNode,callback){
+          callback(pNode);
+      }
+
       function loadProfolio (callback) {
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
@@ -196,12 +189,14 @@
         xmlhttp.send();
       }
 
-      function updateGridBox () {
+      function updateContainer () {
         $('.grid-container').masonry({
           itemSelector: '.grid-item',
           columnWidth: 1
         });
+      }
 
+      function updateProfolio () {
         $('.profolios').masonry({
           itemSelector: '.profolio',
           columnWidth: '.profolio'
