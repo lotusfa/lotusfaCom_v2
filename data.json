@@ -2,89 +2,104 @@
 	"Header":"LotusFa.Com",
 	"Profolio" : [
 		{
+			"name"	:	"Error Correction Procedure (2018)",
+			"url"	:	"https://ai.lotusfa.com/Error-Correction-Procedure/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/c_scale,q_auto:good,w_500/v1539607978/Lotusfa.com/error-correction-procedure.png"
+		},
+		{
+			"name"	:	"Multiple XMLHttpRequest Tools (2018)",
+			"url"	:	"https://toolbox.lotusfa.com/multi_request/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1528997843/Lotusfa.com/Multiple_XMLHttpRequest_Tools_ICON.png"
+		},
+		{
+			"name"	:	"Simple Genetic Algorithm (2018)",
+			"url"	:	"https://ai.lotusfa.com/simple-genetic/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1523589137/simple-genetic_mhhs2x.png"
+		},
+		{
 			"name"	:	"PHP Chat Room (2017)",
 			"url"	:	"https://phpchatroomdemo.herokuapp.com/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492407/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.46.27_jky8kx.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512492407/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.46.27_jky8kx.png"
 		},
 		{
 			"name"	:	"Crib Drag Solver (2017)",
 			"url"	:	"https://toolbox.lotusfa.com/crib_drag/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490600/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.16.04_tjuhoe.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512490600/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.16.04_tjuhoe.png"
 		},
 		{
 			"name"	:	"Words frequency Counter (2017)",
 			"url"	:	"https://toolbox.lotusfa.com/chin_words_freq/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490694/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.17.35_s2dz5j.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512490694/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.17.35_s2dz5j.png"
 		},
 		{
 			"name"	:	"IPA Translator (2017)",
 			"url"	:	"https://toolbox.lotusfa.com/ipa/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490749/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.18.52_mocgfu.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512490749/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.18.52_mocgfu.png"
 		},
 		{
 			"name"	:	"Game - Give&Take (2017)",
-			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/give_and_take_v1_0_16/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491553/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.31.31_dnj9t6.png"
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/give_and_take_v1_0_18/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512491553/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.31.31_dnj9t6.png"
 		},
 		{
 			"name"	:	"Game - EqualTen v2 (2017)",
-			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/equal10_v2_2_3/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491682/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.34.22_q6v2ax.png"
+			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/equal10_v2_2_4/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1523589845/ten-game-v2.png"
 		},
 		{
 			"name"	:	"Lotusfa.Com Version 2 (2017)",
 			"url"	:	"https://me.lotusfa.com/lotusfa-v2/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492530/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.48.32_uzvtmo.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1513950140/LOTUSFA_COM_ORANGE.png"
 		},
 		{
 			"name"	:	"HK Search Tree (2017)",
-			"url"	:	"https://hksearchtree.lotusfa.com/searchTree_v2/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512494068/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%881.14.01_bvsrag.png"
+			"url"	:	"https://hk-tree.lotusfa.com/searchTree_v2/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512494068/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%881.14.01_bvsrag.png"
 		},
 		{
 			"name"	:	"Game - EqualTen v1 (2017)",
 			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/equal10_v1_0_5/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512491790/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.36.06_b0x7ck.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512491790/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.36.06_b0x7ck.png"
 		},
 		{
 			"name"	:	"Game - Bullet With Ball (2017)",
 			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/bottle_with_ball_plus/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492705/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.51.22_ocea9w.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512492705/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.51.22_ocea9w.png"
 		},
 		{
 			"name"	:	"Game - Box (2017)",
 			"url"	:	"https://cocoslab.lotusfa.com/cocosLab-v1/Box/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512492852/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.53.23_a5vyvo.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512492852/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.53.23_a5vyvo.png"
 		},
 		{
 			"name"	:	"HackUST - Share Storage (2017)",
 			"url"	:	"https://shareserver-d0c38.firebaseapp.com",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512646476/icon_dcju64.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512646476/icon_dcju64.png"
 		},
 		{
 			"name"	:	"Lotusfa Blog (2017)",
 			"url"	:	"https://blog.lotusfa.com/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512489670/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.00.18_f0ki0q.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512489670/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.00.18_f0ki0q.png"
 		},
 		{
 			"name"	:	"Uni-Y Event Management System (2016)",
-			"url"	:	"https://uni-y.lotusfa.com/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512489988/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.06.05_zv9yav.png"
+			"url"	:	"https://uni-y-app.lotusfa.com/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512489988/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.06.05_zv9yav.png"
 		},
 		{
 			"name"	:	"Vista Snap (2016)",
 			"url"	:	"https://vista.lotusfa.com/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1469550788/VistaLogo.jpg"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1469550788/VistaLogo.jpg"
 		},
 		{
 			"name"	:	"Lotusfa.Com Version 1 (2016)",
 			"url"	:	"https://me.lotusfa.com/lotusfa-v1/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1512490281/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.10.53_khqorx.png"
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512490281/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.10.53_khqorx.png"
 		},
 		{
 			"name"	:	"FaFa Ebook (2013)",
-			"url"	:	"https://fafaebook.lotusfa.com/",
-			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/v1469137577/fafaEbookkkk.png"
+			"url"	:	"https://fafaebook-sba-version.firebaseapp.com/index.html",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1469137577/fafaEbookkkk.png"
 		}
 	]
 }
