@@ -7,9 +7,19 @@
 			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/c_scale,q_auto:good,w_500/v1539607978/Lotusfa.com/error-correction-procedure.png"
 		},
 		{
+			"name"	:	"Balance Bobot (2018)",
+			"url"	:	"https://lotusfa.com/elec3300/",
+			"image"	:	"https://res.cloudinary.com/lo5/image/upload/q_auto:good/v1526385735/family_app/v2_side.png"
+		},
+		{
 			"name"	:	"Multiple XMLHttpRequest Tools (2018)",
 			"url"	:	"https://toolbox.lotusfa.com/multi_request/",
 			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1528997843/Lotusfa.com/Multiple_XMLHttpRequest_Tools_ICON.png"
+		},
+		{
+			"name"	:	"STEM Workshop - Arduino_Car (2018)",
+			"url"	:	"https://github.com/lotusfa/Arduino_Car",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1542738331/other/stem_workshop_demo.jpg"
 		},
 		{
 			"name"	:	"Simple Genetic Algorithm (2018)",
@@ -75,6 +85,11 @@
 			"name"	:	"HackUST - Share Storage (2017)",
 			"url"	:	"https://shareserver-d0c38.firebaseapp.com",
 			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512646476/icon_dcju64.png"
+		},
+		{
+			"name"	:	"Science Workshop (2017)",
+			"url"	:	"https://blog.lotusfa.com/%E4%BD%9C%E7%94%A8%E5%8A%9B%E8%88%87%E5%8F%8D%E4%BD%9C%E7%94%A8%E5%8A%9B-%E6%B0%A3%E7%90%83%E8%BB%8A%E8%A8%AD%E8%A8%88/",
+			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1542738588/other/ballon_car.jpg"
 		},
 		{
 			"name"	:	"Lotusfa Blog (2017)",
