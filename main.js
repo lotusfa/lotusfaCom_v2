@@ -3,17 +3,50 @@ main ();
 
 function main () {
 
-	updateContainer ();
+	$( document ).ready(function() {
 
-	loadProfolio ( (data)=>{
-	  
-	  setProfolios (data.Profolio);
-	  
-	  updateMasonry ();
+		updateContainer ();
 
-	  setTimeout(()=>{ updateProfolio (); }, 50);
-	  setTimeout(()=>{ updateProfolio (); }, 500);
-	  setInterval(()=>{ updateMasonry (); }, 1500);
+		loadProfolio ( (data)=>{
+		  setProfolios (data.Profolio);
+		});
+		
+	    // init Masonry
+    	var $profolios = $('.profolios').masonry({
+		  itemSelector: '.profolio',
+		  columnWidth: '.profolio'
+		});
+
+		var $grid = $('.grid-container').masonry({
+		  	itemSelector: '.grid-item',
+		  	columnWidth: 1
+		});
+
+    	// layout Masonry after each image loads
+    	$grid.imagesLoaded().progress( function() {
+    	  updateContainer();
+    	});
+
+    	// layout Masonry after each image loads
+    	$profolios.imagesLoaded().progress( function() {
+    	  updateProfolio();
+    	});
+
+    		// var $profolios = $('.profolios').imagesLoaded( function() {
+    		//   // init Masonry after all images have loaded
+    		//   $profolios.masonry({
+    	 //  		  	itemSelector: '.profolio',
+    	 //  		  	columnWidth: '.profolio'
+    	 //  		});	
+    		// });
+
+    		// var $grid = $('.grid-container').imagesLoaded( function() {
+    		//   // init Masonry after all images have loaded
+    		//   $grid.masonry({
+    		// 	  	itemSelector: '.grid-item',
+    		// 	  	columnWidth: 1
+    		// 	});
+    		// });
 	});
 }
 
@@ -71,11 +104,14 @@ function loadProfolio (callback) {
 }
 
 function updateMasonry () {
+
+	console.log('fuck');
 	updateContainer ();
 	updateProfolio ();
 }
 
 function updateContainer () {
+	console.log('yo');
 $('.grid-container').masonry({
   itemSelector: '.grid-item',
   columnWidth: 1
@@ -83,6 +119,7 @@ $('.grid-container').masonry({
 }
 
 function updateProfolio () {
+	console.log('hi');
 $('.profolios').masonry({
   itemSelector: '.profolio',
   columnWidth: '.profolio'
