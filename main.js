@@ -1,6 +1,8 @@
 let dataURL = "./data.json";
 main ();
 
+let $grid;
+let $profolios;
 function main () {
 
 	$( document ).ready(function() {
@@ -12,12 +14,12 @@ function main () {
 		});
 		
 	    // init Masonry
-    	var $profolios = $('.profolios').masonry({
+    	$profolios = $('.profolios').masonry({
 		  itemSelector: '.profolio',
-		  columnWidth: '.profolio'
+		  columnWidth: 10
 		});
 
-		var $grid = $('.grid-container').masonry({
+		$grid = $('.grid-container').masonry({
 		  	itemSelector: '.grid-item',
 		  	columnWidth: 1
 		});
@@ -28,9 +30,23 @@ function main () {
     	});
 
     	// layout Masonry after each image loads
-    	$profolios.imagesLoaded().progress( function() {
-    	  updateProfolio();
+    	$profolios.imagesLoaded()
+    	.always( function( instance ) {
+			updateProfolio();
+		})
+		.done( function( instance ) {
+			// updateProfolio();
+		})
+		.fail( function() {
+			console.log('all images loaded, at least one is broken');
+		})
+		.progress( function() {
+			updateProfolio();
     	});
+
+		setInterval(()=>{
+			updateProfolio();
+		},500);
 
     		// var $profolios = $('.profolios').imagesLoaded( function() {
     		//   // init Masonry after all images have loaded
@@ -58,7 +74,7 @@ function setProfolios (pArray) {
 	for (var i = 0; i < p.length; i++) {
 
 	  var proNode = document.createElement("div");
-	  proNode.className = "profolio col-xs-6 col-sm-4 nopadding container";
+	  proNode.className = "profolio nopadding container";
 	  proNode.style.display = "none";
 
 	  var cardNode = document.createElement("div");
@@ -83,8 +99,17 @@ function setProfolios (pArray) {
 	  cardNode.appendChild(aNode);
 	  proNode.appendChild(cardNode);
 
-	  document.getElementById("profolios").appendChild(proNode);
+	  // document.getElementById("profolios").appendChild(proNode);
+
+	  // append items to grid
+	  	$profolios.append( proNode )
+	      // add and lay out newly appended items
+	      .masonry( 'appended', proNode ).masonry();
 	}
+
+	setTimeout(()=>{
+		updateProfolio();
+	},200);
 }
 
 function imgLoaded(pNode,callback){
@@ -104,14 +129,13 @@ function loadProfolio (callback) {
 }
 
 function updateMasonry () {
-
-	console.log('fuck');
+	console.log('updateMasonry');
 	updateContainer ();
 	updateProfolio ();
 }
 
 function updateContainer () {
-	console.log('yo');
+	console.log('updateContainer');
 $('.grid-container').masonry({
   itemSelector: '.grid-item',
   columnWidth: 1
@@ -119,9 +143,10 @@ $('.grid-container').masonry({
 }
 
 function updateProfolio () {
-	console.log('hi');
-$('.profolios').masonry({
-  itemSelector: '.profolio',
-  columnWidth: '.profolio'
-});
+	console.log('updateProfolio');
+	$profolios.masonry();
+// $('.profolios').masonry({
+//   itemSelector: '.profolio',
+//   columnWidth: 1
+// });
 }
