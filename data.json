@@ -2,6 +2,16 @@
 	"Header":"LotusFa.Com",
 	"Profolio" : [
 		{
+			"name"	:	"人在香港 People In HK (2019)",
+			"url"	:	"https://peopleinhk.com/about",
+			"image"	:	"https://res.cloudinary.com/lo5/image/upload/c_scale,q_auto:good,w_500/v1558804693/ppinhk/company_logo.png"
+		},
+		{
+			"name"	:	"2 Wheel Balance Robot (2019)",
+			"url"	:	"https://youtu.be/2sueX3s8bnk",
+			"image"	:	"https://res.cloudinary.com/lo5/image/upload/c_scale,q_auto:good,w_500/v1558809874/robot_design.jpg"
+		},
+		{
 			"name"	:	"Error Correction Procedure (2018)",
 			"url"	:	"https://ai.lotusfa.com/Error-Correction-Procedure/",
 			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/c_scale,q_auto:good,w_500/v1539607978/Lotusfa.com/error-correction-procedure.png"
@@ -28,7 +38,7 @@
 		},
 		{
 			"name"	:	"PHP Chat Room (2017)",
-			"url"	:	"https://phpchatroomdemo.herokuapp.com/",
+			"url"	:	"https://chat-room-demo.lotusfa.com/",
 			"image"	:	"https://res.cloudinary.com/dcmnwc3ux/image/upload/q_auto:good/v1512492407/%E8%9E%A2%E5%B9%95%E5%BF%AB%E7%85%A7_2017-12-06_%E4%B8%8A%E5%8D%8812.46.27_jky8kx.png"
 		},
 		{
